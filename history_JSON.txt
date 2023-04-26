@@ -1,4 +1,3 @@
-  401  cd 'C:\Program Files\InfluxData\influxdb'
   402  history 
   403  history 
   404  history 
@@ -33,3 +32,14 @@
   433  git pull
   434  history
   435  history 35 > history_JSON.txt
+  436  git status
+  437  git add .
+  438  git commit -m "added history"
+  439  git push
+  440  echo "homework2/JSON" > README.md
+  441  git status
+  442  git add .
+  443  git commit -m "creating README.md"
+  444  git push
+  445  history
+  446  history 45 > history_JSON.txt
