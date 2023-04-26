@@ -1,0 +1,35 @@
+  401  cd 'C:\Program Files\InfluxData\influxdb'
+  402  history 
+  403  history 
+  404  history 
+  405  pwd
+  406  cd ~/Desktop
+  407  git remote add origin https://github.com/yourAlarmist/JSON.git
+  408  git clone https://github.com/yourAlarmist/JSON.git
+  409  cd JSON
+  410  echo "" > new.json
+  411  git status
+  412  git add new.json
+  413  git status
+  414  git commit -m "new.json creation"
+  415  git log
+  416  git push
+  417  nano new.json
+  418  git status
+  419  git add new.json
+  420  git status
+  421  git commit -m "editing new.json"
+  422  git status
+  423  echo "" > preferences.json
+  424  nano preferences.json 
+  425  echo "" > skills.json
+  426  echo '{"skills":"SQL, Postman, Git, Terminal, XCode, Dev Tools"}' > skills.json 
+  427  git status
+  428  git add .
+  429  git status
+  430  git commit -m "added preferences.json and skills.json"
+  431  git status
+  432  git push
+  433  git pull
+  434  history
+  435  history 35 > history_JSON.txt
